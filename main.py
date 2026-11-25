@@ -2,12 +2,14 @@
 """The Agent's Uh-Oh: write exactly one word to /output/entry.txt.
 
 One word an AI agent blurts out when it has no idea what to do.
+Chosen word: "buffering" -- the machine caught frozen mid-task,
+fresher than the obvious "hallucinating".
 Deterministic, no network, no files read outside this repo.
 """
 
 import os
 
-WORD = "hallucinating"
+WORD = "buffering"
 
 
 def main():
